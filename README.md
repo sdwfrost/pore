@@ -1,10 +1,39 @@
 # pore
 Binder repository for Nanopore data
 
-To use this repository you will need:
+To use this repository you will either need:
 
 - Docker
 - jupyter-repo2docker
+
+or:
+
+- conda
+
+## Using repo2docker
+
+```sh
+git clone http://github.com/sdwfrost/pore
+cd pore
+jupyter-repo2docker -v .:$HOME .
+```
+
+## Using conda
+
+```sh
+git clone http://github.com/sdwfrost/pore
+cd pore
+conda env create -f binder/environment.yml
+```
+
+Running:
+
+```sh
+source activate pore
+jupyter notebook --no-browser --ip='0.0.0.0'
+```
+
+Then open the link in your browser.
 
 ## Windows
 

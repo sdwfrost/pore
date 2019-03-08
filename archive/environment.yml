@@ -1,0 +1,38 @@
+name: pore
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - assembly-stats
+  - bcftools
+  - biopython
+  - bwa
+  - fastqc
+  - graphmap
+  - ipywidgets
+  - jupyterlab
+  - jupyter_contrib_nbextensions
+  - jupyter_nbextensions_configurator
+  - medaka
+  - minimap2
+  - miniasm
+  - mosdepth
+  - nanoplot
+  - nanopolish
+  - nanostat
+  - notebook
+  - numpy
+  - matplotlib
+  - pandas
+  - papermill
+  - picard
+  - pip
+  - porechop
+  - racon
+  - samtools
+  - seqkit
+  - snakemake
+  - pip:
+    - pomoxis
+
+

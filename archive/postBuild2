@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd /tmp
+pip install git+https://github.com/rrwick/Porechop
+git clone --recursive https://github.com/nanoporetech/pomoxis
+cd pomoxis
+python3 setup.py install

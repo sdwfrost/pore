@@ -3,15 +3,16 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
+  - assembly-stats
   - bcftools
   - biopython
   - bwa
   - fastqc
   - graphmap
   - ipywidgets
-  - jupyterlab
-  - jupyter_contrib_nbextensions
-  - jupyter_nbextensions_configurator
+  - iqtree
+  - mafft
+  - mash
   - medaka
   - minimap2
   - miniasm
@@ -23,14 +24,17 @@ dependencies:
   - numpy
   - matplotlib
   - pandas
+  - papermill
   - picard
   - pip
   - porechop
   - racon
   - samtools
   - seqkit
+  - setuptools
   - snakemake
-  - pip
-    - pomoxis
+  - pip:
+    - kindel
+
 
 

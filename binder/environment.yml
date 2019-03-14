@@ -12,8 +12,6 @@ dependencies:
   - ipywidgets
   - iqtree
   - mafft
-  - mash
-  - medaka
   - minimap2
   - miniasm
   - mosdepth
@@ -35,6 +33,8 @@ dependencies:
   - snakemake
   - pip:
     - kindel
+    - medaka
+    - qcat
 
 
 

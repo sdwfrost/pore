@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd /tmp
+wget https://github.com/marbl/Mash/releases/download/v2.1/mash-Linux64-v2.1.tar
+tar xvf mash-Linux64-v2.1.tar
+cp mash-Linux64-v2.1/mash $HOME/miniconda/bin
